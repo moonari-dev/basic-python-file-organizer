@@ -17,6 +17,7 @@ In order to use this tool, run the script(python file), then a window will appea
 CUSTOMIZING 
 To customize, you can edit the json file and change the NAME, EXTENSIONS and AMOUNT of folders.
 This is the STANDARD CONFIGURATION of this tool:
+```json
 {
     "Images": [".jpg", ".jpeg", ".png", ".gif"],
     "Documents": [".pdf", ".docx", ".txt"],
@@ -24,6 +25,7 @@ This is the STANDARD CONFIGURATION of this tool:
 }
 You can add new folders by repeating this structure
 e.g.
+```json
 {
     "Images": [".jpg", ".jpeg", ".png", ".gif"],
     "Documents": [".pdf", ".docx", ".txt"],
@@ -33,6 +35,7 @@ e.g.
 As you can see, the "Code" folder has been added into the json, so when organizing the folder will be created gathering files with these extensions.
 It is also possible to edit the extensions of each folder
 e.g.
+```json
 {
     "Images": [".jpg", ".jpeg", ".png", ".gif"],
     "Documents": [".pdf", ".docx", ".txt"],
