@@ -34,7 +34,7 @@ e.g.
     "Code": [".py", ".json", ".html"]
 }
 ```
-As you can see, the "Code" folder has been added into the json, so when organizing the folder will be created gathering files with these extensions.
+You see, the "Code" folder has been added into the json, so when organizing the folder will be created gathering files with these extensions.
 It is also possible to edit the extensions of each folder
 e.g.
 ```json
