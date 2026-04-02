@@ -23,6 +23,7 @@ This is the STANDARD CONFIGURATION of this tool:
     "Documents": [".pdf", ".docx", ".txt"],
     "Music": [".mp3", ".wav"]
 }
+---
 You can add new folders by repeating this structure
 e.g.
 ```json
@@ -32,6 +33,7 @@ e.g.
     "Music": [".mp3", ".wav"],
     "Code": [".py", ".json", ".html"]
 }
+---
 As you can see, the "Code" folder has been added into the json, so when organizing the folder will be created gathering files with these extensions.
 It is also possible to edit the extensions of each folder
 e.g.
@@ -42,6 +44,7 @@ e.g.
     "Music": [".mp3", ".wav"],
     "Code": [".py", ".json", ".html", ".css", ".js", ".c"]
 }
+---
 As you can see, three new extensions were added into "Code" folder(".css", ".js", ".c"), therefore when organizing the folder will also gather these new extension.
 
 SAFETY
